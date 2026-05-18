@@ -421,8 +421,13 @@ if __name__ == "__main__":
     raise SystemExit(main())
 
 
+#instructions:
+#Install dependencies
 #pip install openai redis pydantic
+#Run the code
 # python3 pod_openai_redis.py
+
+#Redis Insights search commands.
 # @consignee_stamp:{true}
 #@summary:*short*
 #@summary:*damage*
