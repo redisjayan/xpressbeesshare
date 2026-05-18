@@ -1,0 +1,16 @@
+# Redis Enterprise + vector / semantic features
+redisvl[openai]>=0.16.0
+redis>=5.0.0
+
+# LLM for text-to-SQL
+openai>=1.40.0
+
+# MCP client (stdio) to talk to @modelcontextprotocol/server-postgres or compatible servers
+mcp>=1.2.0
+
+# Optional: direct PostgreSQL when MCP is not used
+psycopg[binary]>=3.1.0
+
+pydantic>=2.0
+pydantic-settings>=2.0
+python-dotenv>=1.0.0
